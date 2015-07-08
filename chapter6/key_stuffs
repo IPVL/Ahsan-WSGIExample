@@ -1,7 +1,0 @@
-#Variables are almost like using dictionaries, 
- where keys refer to values, except that you’re using an “invisible” dictionary. 
- There is a built-in function called vars, which returns this dictionary
-
-#This sort of “invisible dictionary” is called a namespace or scope.
-
-#In addition to the global scope, each function call creates a new one.

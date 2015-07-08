@@ -1,0 +1,19 @@
+[app:greeting]
+paste.app_factory = configured:app_factory
+name = Bharney
+greeting = Bienvenu
+
+[filter:caseless]
+paste.filter_app_factory = configured:filter_factory
+
+[pipeline:main]
+pipeline =
+    caseless
+    greeting
+
+
+[server:main]
+use = egg:Paste#http
+host = 127.0.0.1
+port = 8080
+
