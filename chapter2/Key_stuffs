@@ -1,0 +1,59 @@
+
+                      Chapter 2         
+              **************************  
+
+   # Python has six built-in types of sequences.
+      -Lists
+      -Tuple
+      -String
+      -Unicode Strings
+      -Buffer Objects
+      -xrange objects
+               
+   # The main difference between lists and tuples is that you can change a list, but you can’t
+     change a tuple.
+   
+   #using tuples as dictionary keys. There lists aren’t allowed,
+    because you aren’t allowed to modify keys.
+
+   #accessing
+          -ve index are index from the end
+           exmp: -1 is the last element of the sequence
+
+   #Slicing
+          The first index is the number of the first element you want to include.
+          However, the last index is the number of the first element after your slice.
+          
+          In short, you supply two indices as limits for your slice, where the first is inclusive and the
+          second is exclusive. 
+
+          slicing structure- num[a:b]
+          if num[:b] -  slice from start to index b-1
+          if num[a:] - slice from a to end
+          if num[:] - The whole list
+
+
+          slicing with step size - num[a,b,s] where s is step size
+          default step size is 1
+
+          for +ve step size, start<end
+          for -ve step size end<start
+          otherwise return []
+
+  #Concatenation
+	 you can’t concatenate a list and a string, although both are sequences. 
+         In general, you cannot concatenate sequences of different types.   	  
+  
+  #Multiplication
+	"x" * 5 -> "xxxxx"
+        [1] *5 -> [1,1,1,1,1]
+        [] -> empty list
+        [None] *3 -> [None,None,None]
+
+  #list from string
+	list(string)->['s','t','r','i','n','g'] 
+  
+  #differance between function & method
+      method used a dot notation after object.
+      function is independent
+              

@@ -1,0 +1,29 @@
+#comma can be used to print more than one expression, but a comma is added between them
+
+         use "+" if you don't want a comma
+
+         If you add a comma at the end, your next printstatement will continue printing on the
+         same line.
+
+
+#import statement can be written in several ways.they are:
+	1) import module_name
+	2) from module_name import function_name
+	3) from module_name import func1, func2,func3
+	4) from module_name import *
+
+ besides u can use
+	 1)import module as x
+	 2) from module import function as y
+
+#sequence unpacking:
+  	- enables simultaneous assignments
+  	- helps to return more than one value
+
+#Truth values
+	- False,None,0,"",(),[],{}  are false
+	- Rest of the world is true
+
+#Comparison operators
+	in - x in y, x not in y, x is y, x is not y
+	1<=x<=10 - this was not posssible in java or c/c++, but possible in python

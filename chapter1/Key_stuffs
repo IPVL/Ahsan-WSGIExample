@@ -1,0 +1,74 @@
+
+                      Chapter 1         
+              **************************  
+
+	# In python, 1/2 is not 0.5, its rather 0. If u want 0.5, 
+                    either you make them float (1.0/2.0)
+                    or execute the instruction from __future__ import division.
+
+        # To represent a long integer add an 'L' at the very end. 1000000000000000000L
+
+        # To represent Hexa use 0x and to represent octal use 0.
+         
+        # To ways to determine x to the power y
+                  1. x**y
+                  2. pow(x,y)
+
+	# Integer division always rounds down, whereas round rounds to the nearest integer.     
+      
+        # modules are extensions that can be imported into Python to extend its capabilities.
+        
+        # modules can be imported in various ways.
+
+		- if full module import
+                           import math
+                - if a part of module import
+			   from math import sqrt
+                - if refer a module to a differant name
+                           import math as m     
+        # functions can be assigned to variables.
+                   x = math.sqrt   is a valid one
+        
+        # to handle complex number use module name "cmath"   
+        
+        #  convert values to string
+
+               1. repr- used to convert values to string by representing them as a legal python expression
+                           exp : print repr(1000L)    will print 1000L
+                  A synonym for repr(x) is `x`   
+
+               2. str- used to convert values to string regardless of being a legal python expression
+                           exp : print repr(1000L)    will print 1000
+    
+        # str, repr, and backticks are three ways of converting a Python value to a string.
+          The function str makes it look good, while repr (and the backticks) tries to make the resulting
+          string a legal Python expression.
+
+        #str is a type, repr is a function 
+
+        #input assumes that what you enter is a valid Python expression, raw_input treats all input as raw data and puts it into a string 
+
+        #If you want to write a really long string, one that spans several lines, you can use triple quotes
+         instead of ordinary quotes, triple double quotes can be used, here u can use single and double quote without using backslash
+
+
+	#Ordinary strings can also span several lines. If the last character on a line is a backslash, the line
+         break itself is “escaped” and ignored. For example:
+                       print "Hello, \
+                       world!"
+        
+       # print r'Let\'s go!' will escape quote but print a backslash
+         print 'Let\'s go!' will escape quote, won't print a backslash
+
+
+       #In raw string end with a backslash is illegal print r"This is illegal\"
+                SyntaxError: invalid token
+        
+       #Normal strings in Python are stored internally as 8-bit ASCII, while
+        Unicode strings are stored as 16-bit Unicode. In Python 3.0, all strings will be Unicode strings.
+       
+             exmp: >>u'Hello, world!'
+                   u'Hello, world!'
+                 
+                
+               
